@@ -8,14 +8,14 @@ referer
 
 b3d:
 
-~~brutforce
-~~cookie
-~~mailbox recover
-~~override value -> survey
+~~ brutforce
+~~ cookie
+~~ mailbox recover
+~~ override value -> survey
 ~~ upload image  -> 09-File Upload
+~~ SQL
+~~ SQL imgs
 path traversal
-SQL
-SQL imgs
 
 
 -----

