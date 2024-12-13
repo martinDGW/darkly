@@ -8,14 +8,14 @@ robots.txt
 
 b3d:
 
-~~ brutforce
-~~ cookie
-~~ mailbox recover
-~~ override value -> survey
-~~ upload image  -> 09-File Upload
-~~ SQL
-~~ SQL imgs
-path traversal
+~~ brutforce                -> 02- Brutforce_member
+~~ cookie                   -> 04- Cookies
+~~ mailbox recover          -> 13- Recover
+~~ override value           -> 12- Survey
+~~ upload image             -> 09- File Upload
+~~ SQL                      -> 00- SQL injection basic
+~~ SQL imgs                 -> 01- SQL injection avancée
+path traversal              -> 10- Redirect ?
 
 
 -----
