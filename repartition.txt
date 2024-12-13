@@ -1,10 +1,10 @@
 oim:
 robots.txt
 //
-xss feedback
-xss object tag
-redirect
-referer
+~~ xss feedback
+~~ xss object tag
+~~ redirect
+~~ referer
 
 b3d:
 
@@ -20,17 +20,17 @@ path traversal              -> 10- Redirect ?
 
 -----
 Noms/ordre des failles sujet correct :
-00- SQL injection basic 
-01- SQL injection avancée
+~~ 00- SQL injection basic 
+~~ 01- SQL injection avancée
 02- include
-03- XSS basic
-04- XSS advanced
-05- Cookies 
-06- Spoof (curl)
-07- Admin (htpasswd)
-08- Bruteforce (member)
-09- File upload
-10- redirect
-11- Guess (dossier caché)
-12- Survey
-13- Recover
+~~ 03- XSS basic
+~~ 04- XSS advanced
+~~ 05- Cookies 
+~~ 06- Spoof (curl)
+~~ 07- Admin (htpasswd)
+~~ 08- Bruteforce (member)
+~~ 09- File upload
+~~ 10- redirect
+~~ 11- Guess (dossier caché)
+~~ 12- Survey
+~~ 13- Recover
