@@ -1,8 +1,8 @@
 00- SQL injection basic     ben
 01- SQL injection avancée   ben
-02- include                 martin
+02- include                 ben
 03- XSS basic               martin
-04- XSS advanced            ben
+04- XSS advanced            martin
 05- Cookies                 martin
 06- Spoof (curl)            martin
 07- Admin (htpasswd)        martin
