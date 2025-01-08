@@ -8,7 +8,7 @@
 07- Admin (htpasswd)        martin
 08- Bruteforce (member)     ben
 09- File upload             ben
-10- redirect                ben
+10- redirect                martin
 11- Guess (dossier caché)   martin
 12- Survey                  ben
 13- Recover                 ben
